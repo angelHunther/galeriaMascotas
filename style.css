@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #28e4e4;
+}
+nav{
+    background: #eceeee;
+}
+nav img{
+    width: 100px;
+}
+article{
+    margin: 30px;
+    padding: 20px;
+}
+
+article img{
+    width: 300px;
+}
+.seccion-activa{
+    background: #13a8a8e9;
+}
