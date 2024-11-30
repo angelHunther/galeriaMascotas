@@ -15,10 +15,10 @@ article{
     margin: 30px;
     padding: 20px;
 }
-
+article:hover{
+    background: #13a8a8e9;
+    color: white;
+}
 article img{
     width: 300px;
-}
-.seccion-activa{
-    background: #13a8a8e9;
 }
