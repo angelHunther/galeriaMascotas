@@ -316,3 +316,41 @@ footer .mensaje-final p , i, span{
   font-size: 17px;
   margin-top: 10px;
 }
+
+@media (min-width: 768px) {
+  .flechas {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .contenedor-galeria {
+      flex-direction: row;
+      align-items: flex-start;
+  }
+
+  .mascota {
+      flex: 1;
+      max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .galeria-mascotas {
+      padding: 40px;
+  }
+
+  .contenedor-cards {
+      justify-content: flex-start;
+  }
+
+  .mascota {
+      flex: 1;
+      max-width: 350px;
+  }
+
+  .footer-card {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
