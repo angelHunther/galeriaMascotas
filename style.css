@@ -19,6 +19,10 @@ nav {
 nav img {
   width: 100px;
 }
+
+main section{
+    margin-bottom: 4rem;
+}
 .border {
   border: 2px solid;
 }
@@ -97,6 +101,41 @@ nav img {
     z-index: 0;
 } */
 
+/* Estilos para la seccion acerca de nosotros */
+.acerca-nosotros{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+    padding: 3rem;
+ 
+}
+.acerca-nosotros article{
+    width: 28vw;
+    height: 60vh;
+    padding: 15px;
+    background-color: #00b1fc;
+    border-radius: 20px;
+
+}
+.acerca-nosotros article h3{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.acerca-nosotros article i{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    color: rgba(24, 0, 169, 0.88);
+}
+
+.acerca-nosotros article:hover{
+    transform: scale(1.1);
+    color: #eceeee;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 /* estilos de la galeria de mascotas */
 .galeria-mascotas {
   text-align: center;
@@ -115,16 +154,17 @@ nav img {
   display: inline-block;
   position: relative;
   margin: 30px;
-  width: 25%;
+  width: 27%;
   height: 29rem;
   overflow: hidden;
   background: #8ce9ea;
   border-radius: 13px;
   text-align: center;
 }
-/* .galeria-mascotas .mascota:hover{
+.galeria-mascotas .mascota:hover{
     transform: scale(1.1);
-} */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
 .galeria-mascotas article .fondo-card {
   position: absolute;
   background: rgba(24, 0, 169, 0.88);
